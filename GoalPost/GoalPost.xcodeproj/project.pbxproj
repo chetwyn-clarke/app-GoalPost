@@ -13,6 +13,8 @@
 		73C7E6B7206952B900E7B9F5 /* GoalPost.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 73C7E6B5206952B900E7B9F5 /* GoalPost.xcdatamodeld */; };
 		73C7E6B9206952B900E7B9F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73C7E6B8206952B900E7B9F5 /* Assets.xcassets */; };
 		73C7E6BC206952B900E7B9F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73C7E6BA206952B900E7B9F5 /* LaunchScreen.storyboard */; };
+		73C7E6C820695B5600E7B9F5 /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C7E6C720695B5600E7B9F5 /* GoalCell.swift */; };
+		73C7E6CB20695CED00E7B9F5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C7E6CA20695CED00E7B9F5 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		73C7E6B8206952B900E7B9F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73C7E6BB206952B900E7B9F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73C7E6BD206952B900E7B9F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73C7E6C720695B5600E7B9F5 /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
+		73C7E6CA20695CED00E7B9F5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		73C7E6AD206952B900E7B9F5 /* GoalPost */ = {
 			isa = PBXGroup;
 			children = (
+				73C7E6C920695BCF00E7B9F5 /* Constants */,
 				73C7E6C6206952EA00E7B9F5 /* Extensions */,
 				73C7E6C5206952E200E7B9F5 /* Enums */,
 				73C7E6C4206952D700E7B9F5 /* View */,
@@ -81,6 +86,7 @@
 		73C7E6C4206952D700E7B9F5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				73C7E6C720695B5600E7B9F5 /* GoalCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -97,6 +103,14 @@
 			children = (
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		73C7E6C920695BCF00E7B9F5 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				73C7E6CA20695CED00E7B9F5 /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +185,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73C7E6CB20695CED00E7B9F5 /* Constants.swift in Sources */,
+				73C7E6C820695B5600E7B9F5 /* GoalCell.swift in Sources */,
 				73C7E6B1206952B900E7B9F5 /* GoalsVC.swift in Sources */,
 				73C7E6AF206952B900E7B9F5 /* AppDelegate.swift in Sources */,
 				73C7E6B7206952B900E7B9F5 /* GoalPost.xcdatamodeld in Sources */,
