@@ -12,3 +12,4 @@ let goalCell = "goalCell"
 
 let goalsVC = "GoalsVC"
 let createGoalsVC = "CreateGoalsVC"
+let finishGoalVC = "FinishGoalVC"
