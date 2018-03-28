@@ -9,3 +9,6 @@
 import Foundation
 
 let goalCell = "goalCell"
+
+let goalsVC = "GoalsVC"
+let createGoalsVC = "CreateGoalsVC"
