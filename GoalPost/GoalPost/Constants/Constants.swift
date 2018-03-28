@@ -6,7 +6,9 @@
 //  Copyright © 2018 Clarke Enterprises. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+let appDelegate = UIApplication.shared.delegate as? AppDelegate
 
 let goalCell = "goalCell"
 
